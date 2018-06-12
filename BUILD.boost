@@ -1,4 +1,4 @@
-load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_library", "includes_list", "hdr_list")
+load("@com_github_tolar_hashnet_rules_boost//:boost/boost.bzl", "boost_library", "includes_list", "hdr_list")
 
 config_setting(
     name = "linux_x86_64",
@@ -745,6 +745,10 @@ boost_library(
 
 boost_library(
     name = "locale",
+)
+
+boost_library(
+    name = "lockfree",
 )
 
 boost_library(
