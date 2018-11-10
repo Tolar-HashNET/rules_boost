@@ -1589,6 +1589,7 @@ boost_library(
         ":detail",
         ":preprocessor",
         ":swap",
+        ":type_traits",
     ],
 )
 
